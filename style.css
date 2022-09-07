@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+h1{
+    color: #0f9031;
+    border: 10px solid #3f8f54;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    background-color: #9ed2ab;
+    display: block;
+    grid-area:titulo
+
+}
+
+body{
+    background-color: rgb(202, 233, 142);
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "nav nav"
+    "actividades lugares"
+    "ubicación sponsors"
+    "contacto contacto";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+nav{
+    color: green;
+    background-color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    grid-area: nav;
+}
+
+a:hover{
+    color:black;
+    background-color: azure;
+}
+
+h2, h3{
+    color: darkgreen;
+    border: 20px;
+    background-color: #9ed2ab;
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 30px;
+}
+
+ul, #listado{
+  color: #3f8f54;
+  background-color:rgb(202, 233, 142) ;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+}
+
+form{
+    color: darkgreen;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 320px){
+    body{
+      background-color: pink;
+    }
+  }
+  @media screen and (min-width: 480px){
+    body{
+      background-color: yellow;
+    }
+  }
+  @media screen and (min-width: 1200px){
+    body{
+      background-color: aquamarine
+    }
+  }
+  
