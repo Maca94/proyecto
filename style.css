@@ -1,358 +1,235 @@
 *{
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 3px;
-  }
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 3px;
+}
+
 h1{font-size: 5em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.7em;}
 ul{list-style:circle;}
 li{font-size: 1.25em;}
-  
+
 button{
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 10px 40px;
-  border-radius: 15px;
-  border: 2px solid rgba(0,0,0,0,5);
-  box-shadow: #faa191 2px 2px 10px;
-  color: #becb7c;
-  background-color: #f05d67;
-  }
-  
+font-size: 1.5em;
+font-weight: bold;
+padding: 10px 40px;
+border-radius: 15px;
+border: 2px solid rgba(0,0,0,0,5);
+box-shadow: #faa191 2px 2px 10px;
+color: #becb7c;
+background-color: #f05d67;
+}
+
 button:hover{
-    background-color: #360408;
-  }
-  
+  background-color: #360408;
+}
+
 .container{
-    max-width: 1400px;
-    margin: auto;
-  }
+  max-width: 1400px;
+  margin: auto;
+}
 .color-acento{
-    color: #6b161c;
-  }
-
+  color: #6b161c;
+}
 header{
-    background-color: antiquewhite;
-  
-  
-  }
-.logo{
-    margin: 0%;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: #6b161c;
-    font-size: 2em;
-  }
+  background-color: antiquewhite;
 
+
+}
+header .logo{
+  margin: 0%;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: #6b161c;
+  font-size: 2em;
+}
 header .logo p{
-    font-size: 7em;
-    text-align: center;
-  }
-    
-header .container{
-    display:  flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  font-size: 7em;
+  text-align: center;
+}
   
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-    background-repeat: no-repeat;
-  }
+}
+header .container{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+  background-repeat: no-repeat;
+
+}
 header a{
-    padding: 3px 9px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-  }
+  padding: 3px 9px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
 
 header a:hover{
-    background-color: #f05d67;
-  }
-  
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: auto;
-    color: white;
-    background-image: url("media/deportes.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-size: 100% 100%;
-  }
-
-#hero h1{
-    font-size: 12vw;
-  }
-  
-#somosciadyr .container{
-    text-align: center;
-    padding: 200px 12px;
-  }
-
-  #nuestrasactividades{
-    background-color: #1d0602;
-    color: #140303;
-    text-align: center;
-  }
-
-#nuestrasactividades .container{
-  padding: 100px 0px;
-  }
-
-#nuestrasactividades p{
-    margin-top: 0%;
+  background-color: #f05d67;
 }
 
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: auto;
+  color: white;
+  background-image: url("media/deportes.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-size: 100% 100%;
+}
+#hero h1{
+  font-size: 12vw;
+}
+#somosciadyr{
+
+}
+#somosciadyr .container{
+  text-align: center;
+  padding: 200px 12px;
+}
+#nuestrasactividades{
+  background-color: #1d0602;
+  color: #140303;
+  text-align: center;
+}
+#nuestrasactividades .container{
+padding: 100px 0px;
+}
+#nuestrasactividades p{
+  margin-top: 0%;
+}
+#nuestrasactividades p{
+  display: none;
+}
 #nuestrasactividades h2{
-    color: #f05d67;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-
+  color: #f05d67;
+  margin-top: 5px;
+  margin-left: 5px;
+}
 #nuestrasactividades .carta{
-  background-image: url("media/pelotas.jpg");
-  background-size: cover;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
-  }
-
+background-image: url("media/pelotas.jpg");
+background-size: cover;
+padding: 50px;
+margin: 20px;
+border-radius: 15px;
+}
 #enterateahora{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("media/canva.jpg");
-    background-position: center;
-    background-size: 70px 45px;
-    color: #faf2f2;
-    text-decoration: solid;
-  height: 70vh;
-  }
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("media/canva.jpg");
+  background-position: center;
+  background-size: 70px 45px;
+  color: #faf2f2;
+  text-decoration: solid;
+height: 70vh;
+}
 #enterateahora h2{
-    font-size: 9vw ;
-    color: #140303;
-  }
-
-  #caracteristicas {
-    background-color: #becb7c;
-  }
-
+  font-size: 9vw ;
+  color: #140303;
+}
+#enterateahora iframe{
+ position: initial;
+ margin-top: 5px;
+ padding: 20px;
+}
+#caracteristicas {
+  background-color: #becb7c;
+}
 footer{
-    background-color: grey;
-  }
-
+  background-color: grey;
+}
 footer p{
-    margin: 0;
-    padding: 12px;
-    color:#383737
+  margin: 0;
+  padding: 12px;
+  color:#383737
+}
+footer .container{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media(min-width:720px){
+ header{
+  position: fixed;
+  width: 100%;
+ }
+
+ 
+  header .container{
+    flex-direction: row;
+    justify-content: space-between;
+    
   }
+header nav{
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-right: 30px;
+}
+
+#nuestrasactividades .carta {
+  display: inline-block;
+  justify-content: center;
+  padding: 15px;
+}
+#nuestrasactividades {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#caracteristicas{
+  background-image: url("media/deportes.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px 150px;
+  background-position: right;
+  
+}
+#caracteristicas .container{
+  text-align: initial;
+
+}
+#caracteristicas ul{
+  margin-left: 100px;
+}
+#caracteristicas h2{
+  font-size: 5em;
+}
 
 footer .container{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-/* -------- style anterior-------- */
-.informacion{
-  padding: 10px;
-  color: #6b161c;
-  background-color:  #becb7c;
-  border: #f05d67;
-  border-style: solid;
-  display: inline-block;
-  display: flex;
-  order: 3;
-  flex-direction: row;
-  
+  justify-content: flex-end;
 }
-
-nav{
-    padding: 15px;
-    color: #6b161c;
-    background-color:  #becb7c;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    display: block;
-    display: flex;
-    flex-direction: row;
-    order: 7;
-
-}
-
-a:hover{
-    color:black;
-    background-color: azure;
-}
-
-h2, h3{
-    padding: 10px;
-    color: #6b161c;
-    border: 20px;
-    background-color: #9ed2ab;
-    font-family: 'Merriweather', serif;
-    font-family: 'Rubik Distressed', cursive;
-    font-size: 30px;
-    display: inline-block;
-    
-}
-
-.listado{
-  padding:15px;
-  color: #6b161c;
-  background-color:rgb(202, 233, 142) ;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 15px;
-  display: flex;
-  order:4;
-  flex-direction: column;
-  border: #f05d67;
-  border-style: dashed;
-}
-
-ul{
-  color: #6b161c;
-  background-color:rgb(202, 233, 142) ;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
-
-}
-
-form{
-    color: #f05d67;
-    font-family:'Roboto Condensed', sans-serif;
-    font-size: 15px;
-    display: inline-block;
-    display: flex;
-    flex-direction: column;
-}
-
-a{
-  background-color: #9ed2ab;
-  text-decoration: underline;
-  padding: 10px;
-  color: black;
-  display: flex;
-  order: 8;
-}
-
-.escudo{
-  width: 20%;
-  padding: 10px;
-  margin: 15px;
-  display: inline-block;
-  text-align: center;
-  box-shadow: #f05d67;
-  display: flex;
-  order: 1;
-  flex-direction: column;
-}
-
-.actividades{
-  padding: 10px;
-  color: #6b161c;
-  background-color: #9ed2ab;
-  border: #f05d67;
-  border-style: solid;
-  display: inline-block;
-  display: flex;
-  order: 4;
-  flex-direction: row
-}
-
-.Ubicacion{
-  padding: 10px;
-  color: #6b161c;
-  background-color: #9ed2ab;
-  border: #3f8f54;
-  border-style: solid;
-  display: inline-block;
-  display: flex;
-  order: 5;
-  flex-direction: row
-}
-
-#video{
-  display: block;
-  display: flex;
-  flex-direction: row;
-  order: 6;
-}
-  
-@media(min-width:720px){
-   header{
-    position: fixed;
-    width: 100%;
-   }
-  
-   
-    header .container{
-      flex-direction: row;
-      justify-content: space-between;
-      
-    }
-  header nav{
-    flex-direction: row;
-    padding-bottom: 0;
-    padding-right: 30px;
-  }
-  
-  #nuestrasactividades .carta {
-    display: inline-block;
-    justify-content: center;
-    padding: 15px;
-  }
-  #nuestrasactividades {
-    display: block;
-    margin-bottom: 30px;
-  }
-  
-  #caracteristicas{
-    background-image: url("media/deportes.jpg");
-    background-repeat: no-repeat;
-    background-size: 400px 150px;
-    background-position: right;
-    
-  }
-  #caracteristicas .container{
-    text-align: initial;
-  
-  }
-  #caracteristicas ul{
-    margin-left: 100px;
-  }
-  #caracteristicas h2{
-    font-size: 5em;
-  }
-  
-  footer .container{
-    justify-content: flex-end;
-  }
-
 @media (min-width: 1100px) {
-    #caracteristicas{
-      background-position: center;
-    }
+  #caracteristicas{
+    background-position: center;
   }
+
+}
+body .video{
+  position:  inline-block ;
+
+}
+body .escudo{
+  display: flex;
+  position: fixed;
+}
