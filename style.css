@@ -29,9 +29,11 @@ button:hover{
   background-color: #360408;
 }
 
+}
 .container{
   max-width: 1400px;
   margin: auto;
+  padding: 10px;
 }
 .color-acento{
   color: #6b161c;
@@ -141,7 +143,10 @@ border-radius: 15px;
   background-size: 70px 45px;
   color: #faf2f2;
   text-decoration: solid;
-height: 70vh;
+  height: 150vh;
+}
+#esterateahora form{
+  text-align: justify;
 }
 #enterateahora h2{
   font-size: 9vw ;
