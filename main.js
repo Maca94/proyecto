@@ -1,37 +1,22 @@
 let nombreUsuario = prompt ("Ingrese su nombre");
 alert ("Bienvenid@ "+ nombreUsuario + " a CIADYR!")
 
-let edad = prompt ("Ingresa la edad del interesado")
-
-if (edad>=6 && edad<=13) {
-    alert("Categoria Infantil");    
+let edadMinima = 6
+let edadJuvenil = 12
+let edadMayor = 18
+let edad = prompt ("Ingresa la edad del interesado");
+if (edad >= edadMinima) {
+    alert ("Usted puede practicar alguno de nuestros deportes")
 }
-else (edad>13 && edad<18) {
-    alert("Categoria Juvenil");
+else if (edad >= edadMinima && edad < edadJuvenil) {
+    alert ("Categoria Infantil")
 }
-else (edad >=18) {
-    alert("Categoria Mayores");
+else if (edad < edadJuvenil && edad < edadMayor) {
+    alert ("Categora Juvenil")
 }
-else (edad <6){
-    alert("Te esperamos cuando cumplas 6")
+else if (edad <= edadMayor) {
+    alert ("Categoria Mayores")
 }
-
-/*
-while(entrada <= 6 ){
-    switch (entrada) {
-    case edad >= 6 && edad <=13:
-    alert("Categoria Infantil");
-    break;
-    case edad >13 && edad <18:
-    alert("Categoria Juvenil");
-    break;
-    case edad >=18:
-    alert("Categoria Mayores")
-    default:
-    alert("Consultanos tus dudas")
-    break;      
-    }
-    entrada = prompt("Ingrese la edad del interesado");
-   }
-*/
-
+else {
+    alert ("Te esperamos cuando cumplas 6 años")
+}
