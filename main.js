@@ -46,3 +46,17 @@ else {
     alert ("Consulta por las promociones disponibles para tu pago");
 }
 */
+
+//PROBANDO CLASE 17
+class Jugador{
+    constructor (nombre, edad, categoria, contacto){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.categoria = categoria;
+        this.contacto = contacto;
+    }
+ datos (){
+     console.log ("Me llamo " + this.nombre + ", tengo " + this.edad + " años por que lo que soy categoria " + this.categoria + "y mi telefono es " + this.telefono )
+ 
+ const Jugador1 = new Jugador ({nombre: "Matias", edad: 16, categoria: "Juvenil", contacto: 2215454445})
+    
